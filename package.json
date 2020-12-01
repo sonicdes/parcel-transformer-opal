@@ -1,0 +1,27 @@
+{
+  "name": "parcel-transformer-opal",
+  "version": "1.0.8",
+  "description": "Parcel 2 transformer for Opal",
+  "main": "index.js",
+  "author": "Denis Sadomowski<sonicdes@gmail.com>",
+  "repository": "github:sonicdes/parcel-transformer-opal",
+  "license": "MIT",
+  "keywords": [
+    "parcel",
+    "transformer",
+    "opal"
+  ],
+  "engines": {
+    "node": ">=8",
+    "parcel": "^2.0.0-beta.1"
+  },
+  "peerDependencies": {
+    "opal-compiler": "^2.0.0"
+  },
+  "dependencies": {
+    "@parcel/plugin": "^2.0.0-beta.1",
+    "@parcel/source-map": "^2.0.0-alpha.4.13",
+    "@parcel/utils": "^2.0.0-beta.1",
+    "opal-compiler": "^2.0.0-alpha.2"
+  }
+}
